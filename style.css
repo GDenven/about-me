@@ -1,0 +1,74 @@
+body {
+    width: 100vw;
+    background-color: #E2DFD0;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: #32012F;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: azure;
+    padding-left: 20px;
+}
+
+.shortcut:hover {
+    color: #F97300;
+    text-shadow: 0px 0px 10px #524C42;
+} 
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+
+.project-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+#skills, #projects{
+    background-color: rgba(248, 249, 250);
+    padding: 40px;
+    margin-bottom: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    width: 400px;
+}
+
+.card-body {
+    background-color: #FCFFE0;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.card img {
+    border-radius: 3px 3px 0px 0px;
+}
+
+.no-line-link {
+    text-decoration: none;
+}
+
+.card:hover {
+    border: 2px outset #F97300;
+    background-color: azure;
+    opacity: 80%;
+}
