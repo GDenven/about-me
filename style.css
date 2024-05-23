@@ -73,7 +73,34 @@ body {
     opacity: 80%;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 576px) {
+/*for high resolution tablet*/
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    #skills, #projects{
+        width: 750px;
+        background-color: rgba(248, 249, 250);
+        padding: 40px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 100px;
+        
+    }
+
+    .card {
+        width: 300px;
+        margin-left: 10px;
+    }
+}
+
+/*for tablet*/
+@media only screen and (max-width: 767px) and (min-width: 577px) {
     #skills, #projects{
         width: 400px;
         background-color: rgba(248, 249, 250);
@@ -96,6 +123,7 @@ body {
     }
 }
 
+/*for mobile smartphone*/
 @media only screen and (max-width: 576px) {
     #skills, #projects{
         width: 400px;
